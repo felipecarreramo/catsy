@@ -14,6 +14,7 @@
 		883F24311B4C3B7900B92A03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 883F242D1B4C3B7900B92A03 /* LaunchScreen.xib */; };
 		883F24321B4C3B7900B92A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883F242F1B4C3B7900B92A03 /* Main.storyboard */; };
 		883F24341B4C3B8400B92A03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883F24331B4C3B8400B92A03 /* ViewController.swift */; };
+		88D5E42F1B4C7CB400B7F6F6 /* GifMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D5E42E1B4C7CB400B7F6F6 /* GifMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		883F242E1B4C3B7900B92A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = views/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		883F24301B4C3B7900B92A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = views/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		883F24331B4C3B8400B92A03 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = controllers/ViewController.swift; sourceTree = "<group>"; };
+		88D5E42E1B4C7CB400B7F6F6 /* GifMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifMe.swift; sourceTree = "<group>"; };
 		AE0ED2A9643F3F35F09C6DB0 /* Pods_catsy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_catsy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,9 +139,9 @@
 		883F24281B4C3ACB00B92A03 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				883F242D1B4C3B7900B92A03 /* LaunchScreen.xib */,
 				883F242F1B4C3B7900B92A03 /* Main.storyboard */,
 				883F242B1B4C3B7100B92A03 /* Images.xcassets */,
+				883F242D1B4C3B7900B92A03 /* LaunchScreen.xib */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -155,6 +157,7 @@
 		883F242A1B4C3AE800B92A03 /* store */ = {
 			isa = PBXGroup;
 			children = (
+				88D5E42E1B4C7CB400B7F6F6 /* GifMe.swift */,
 			);
 			name = store;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88D5E42F1B4C7CB400B7F6F6 /* GifMe.swift in Sources */,
 				883F24341B4C3B8400B92A03 /* ViewController.swift in Sources */,
 				883F24081B4C2DA400B92A03 /* AppDelegate.swift in Sources */,
 			);
